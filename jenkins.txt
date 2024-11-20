@@ -10,8 +10,8 @@ pipeline {
     stage('hello') {
       steps {
 	echo 'Stage Hello'
-        bat 'javac Main.java'
-	bat 'java Main'
+        bat 'javac SimpleCalculator.java'
+	bat 'java SimpleCalculator'
       }
     }
   }
